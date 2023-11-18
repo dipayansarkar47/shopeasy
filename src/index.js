@@ -9,17 +9,15 @@ import SidebarContextProvider from './contexts/SidebarContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <SidebarContextProvider>
-
-      <CartContextProvider>
-
-        <ProductContextProvider>
+  <SidebarContextProvider>
+    <CartContextProvider>
+      <ProductContextProvider>
+        <React.StrictMode>
           <App />
-        </ProductContextProvider>
-      </CartContextProvider>
-    </SidebarContextProvider>
-  </React.StrictMode>
+        </React.StrictMode>
+      </ProductContextProvider>
+    </CartContextProvider>
+  </SidebarContextProvider>
 );
 
 reportWebVitals();

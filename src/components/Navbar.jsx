@@ -32,7 +32,7 @@ const Header = () => {
 
         {/* cart */}
         <div
-          onClick={() => setIsOpen(!isOpen)}
+          onClick={() => {setIsOpen(!isOpen); console.log("Clicked");}}
           className="cursor-pointer flex relative"
         >
           <BsBag className="text-2xl" />

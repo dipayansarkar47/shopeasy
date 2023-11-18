@@ -16,7 +16,7 @@ const CartProvider = ({ children }) => {
     }, 0);
     setTotal(total);
     // eslint-disable-next-line
-  },[]);
+  },[cart]);
 
   // update item amount
   useEffect(() => {

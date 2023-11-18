@@ -3,6 +3,7 @@ import Hero from '../components/Home'
 import { ProductContext } from '../contexts/ProductContext'
 import Product from '../components/Product';
 import Navbar from '../components/Navbar';
+import Sidebar from '../components/Sidebar';
 
 const Home = () => {
 
@@ -18,6 +19,7 @@ const Home = () => {
     <div>
         <Navbar></Navbar>
         <Hero></Hero>
+        <Sidebar></Sidebar>
         <section className="py-20">
         <div className="container mx-auto">
           <h1 className="text-3xl font-semibold mb-10 text-center">Explore Our Products</h1>
