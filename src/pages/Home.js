@@ -4,6 +4,7 @@ import { ProductContext } from '../contexts/ProductContext'
 import Product from '../components/Product';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
+import Footer from '../components/Footer';
 
 const Home = () => {
 
@@ -32,6 +33,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Footer></Footer>
     </div>
   )
 }
