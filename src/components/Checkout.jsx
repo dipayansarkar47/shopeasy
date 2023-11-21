@@ -1,13 +1,15 @@
 import React, { useContext } from 'react'
 import { CartContext } from '../contexts/CartContext';
 import CartItem from './CartItem';
+import { useAuth0 } from '@auth0/auth0-react';
 
 
 const Checkout = () => {
   const { cart, total } = useContext(CartContext);
+  const {isAuthenticated, loginWithRedirect } = useAuth0();
   return (
     <>
-      <div className="my-5">
+      {isAuthenticated ? <div className="my-5">
         <div className="">
             <h4 className="text-4xl mb-3">
               Your cart
@@ -37,7 +39,8 @@ const Checkout = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> : <div onClick={() => loginWithRedirect()} className='h-screen cursor-pointer flex flex-col justify-center items-center'> <div className='bg-black rounded text-white font-medium p-2'>Please Login</div></div>}
+      
     </>
   )
 }

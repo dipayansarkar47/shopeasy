@@ -6,6 +6,7 @@ import {
 import './App.css';
 import CheckoutPage from './pages/CheckoutPage'
 import ProductDetailsPage from './pages/ProductDetailsPage';
+import ProfilePage from './pages/ProfilePage'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/checkout",
     element: <CheckoutPage></CheckoutPage>,
+  },
+  {
+    path: "/profile",
+    element: <ProfilePage></ProfilePage>,
   },
 ]);
 
