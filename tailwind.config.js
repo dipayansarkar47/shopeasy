@@ -24,6 +24,10 @@ module.exports = {
         primary: '#222222',
         secondary: '#F5E6E0',
       },
+      borderRadius: {
+        'xl': '0.75rem',
+        '2xl': '1rem'
+      }
     },
   },
   plugins: [],
