@@ -7,6 +7,8 @@ import './App.css';
 import CheckoutPage from './pages/CheckoutPage'
 import ProductDetailsPage from './pages/ProductDetailsPage';
 import ProfilePage from './pages/ProfilePage'
+import ContactPage from './pages/ContactPage';
+import CategoryPage from './pages/CategoryPage';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,14 @@ const router = createBrowserRouter([
   {
     path: "/profile",
     element: <ProfilePage></ProfilePage>,
+  },
+  {
+    path: "/contact-us",
+    element: <ContactPage></ContactPage>,
+  },
+  {
+    path: "/category",
+    element: <CategoryPage></CategoryPage>,
   },
 ]);
 

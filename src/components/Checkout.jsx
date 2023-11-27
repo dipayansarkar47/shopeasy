@@ -4,6 +4,7 @@ import CartItem from './CartItem';
 import Footer from './Footer'
 import { useNavigate } from "react-router-dom";
 import { useAuth0 } from '@auth0/auth0-react';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Checkout = () => {
@@ -52,7 +53,7 @@ const Checkout = () => {
           country: "",
           pin: ""
         })
-        alert("Data Stored");
+        // alert("Data Stored");
         clearCart();
         navigate("/");
       } 

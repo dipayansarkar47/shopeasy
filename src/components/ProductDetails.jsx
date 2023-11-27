@@ -5,6 +5,8 @@ import { ProductContext } from "../contexts/ProductContext";
 import Sidebar from "./Sidebar";
 import { SidebarContext } from "../contexts/SidebarContext";
 
+import 'react-toastify/dist/ReactToastify.css';
+
 const ProductDetails = () => {
   // get the product id from url
   const { id } = useParams();
@@ -29,9 +31,9 @@ const ProductDetails = () => {
   // destructure product
   const { title, price, description, image } = product;
   return (
-    
+
     <section className="pt-[450px] md:pt-32 pb-[400px] md:pb-12 lg:py-32 h-screen flex items-center">
-        <Sidebar></Sidebar>
+      <Sidebar></Sidebar>
       <div className="container mx-auto">
         {/* image and text wrapper */}
         <div className="flex flex-col lg:flex-row items-center">
@@ -44,8 +46,10 @@ const ProductDetails = () => {
             <h1 className="text-[26px] font-medium mb-2 max-w-[450px] mx-auto lg:mx-0">{title}</h1>
             <div className="text-2xl text-red-500 font-medium mb-6">$ {price}</div>
             <p className="mb-8">{description}</p>
-            <button onClick={()=>addToCart(product, product.id)} className='bg-primary py-4 px-8 text-white'>Add to cart</button>
-            <button onClick={()=>{setIsOpen(!isOpen); console.log("Clicked");}} className='bg-gray-200 py-4 px-8 ml-2 text-black font-medium'>View Cart</button>
+            <button onClick={() => {
+              addToCart(product, product.id);
+            }} className='bg-primary py-4 px-8 text-white'>Add to cart</button>
+            <button onClick={() => { setIsOpen(!isOpen); console.log("Clicked"); }} className='bg-gray-200 py-4 px-8 ml-2 text-black font-medium'>View Cart</button>
           </div>
         </div>
       </div>
