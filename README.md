@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+<br/>
+<p align="center">
+  <a href="">
+    <img src="https://raw.githubusercontent.com/dipayansarkar47/shopeasy/main/public/android-chrome-192x192.png" alt="Logo" width="80" height="80">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">Shopeasy</h3>
 
-## Available Scripts
+  <p align="center">
+    E-commerce website for the Gen-Z
+    <br/>
+    <br/>
+    <a href="https://shopeasy.vercel.app/"><strong>View Live Demo »</strong></a>
+    <br/>
+  <p align="center"><b>🚀Latest update:</b> Added admin panel </p>
+    <br/>
+  </p>
+</p>
 
-In the project directory, you can run:
 
-### `npm start`
+## 1. Home Page of Shopeasy...
+![image](https://github.com/dipayansarkar47/shopeasy/assets/77672753/c227a51a-b14c-424a-b5f2-d1648e43433b)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 2. Products List of Shopeasy...
+![image](https://github.com/dipayansarkar47/shopeasy/assets/77672753/21be0a46-0f12-4e26-b4df-379006d798f6)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 3. Product details page...
+![image](https://github.com/dipayansarkar47/shopeasy/assets/77672753/4c78a49d-465c-4e6d-bbf4-24d6f4e244da)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 4. Profile page of Shopeasy...
+![image](https://github.com/dipayansarkar47/shopeasy/assets/77672753/1f8c2bad-4225-4290-b366-e894dec4a3cf)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 5. Checkout page...
+![image](https://github.com/dipayansarkar47/shopeasy/assets/77672753/818c9e22-c118-4f6f-8c67-fc388125513a)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## 6. Contact us page...
+![image](https://github.com/dipayansarkar47/shopeasy/assets/77672753/547e8115-360f-4032-826e-b7eb7b6eaa68)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Built with...
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- 🚀️ React for the UI
+- 🏅️ Firebase real-time database
+- 💎️ Tailwind CSS for modern look
+- ⏲️ Auth0 authentication
+- 🔥 Admin Panel
+- 📸 Fakestore API
+- 🎉️ and much more.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h3 align="left">⭐ Give a Star to this repository</h3>
